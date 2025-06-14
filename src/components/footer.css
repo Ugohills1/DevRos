@@ -1,0 +1,33 @@
+.footer-links {
+  display: flex;
+  /* justify-content: space-between; */
+  align-content: first baseline;
+  gap: 3rem;
+  margin: 0;
+  padding: 0; 
+  height: o;
+}
+
+.footer-links a{
+  color: white;
+}
+
+@media only screen and (max-width: 426px) {
+.footer-links {
+  display: flex;
+  align-content: first baseline;
+  gap: 3rem;
+  margin: auto;
+  height: auto;
+  padding: 90px 20px;
+}
+
+.footer-links a{
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 8px;
+  font-weight: 100;
+  font-style: normal;
+  text-decoration: none;
+}
+}
