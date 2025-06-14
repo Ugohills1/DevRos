@@ -1,17 +1,18 @@
 import React from "react";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
-import Portfolio from "../components/Portfolio/Portfolio";
+import Portfolio1 from "../components/portfolio/portfolio1";
 
 
 
-function PortfolioPage() {
+
+function Portfolio1Page() {
     return (
     <>
   <Navbar/> 
-  <Portfolio/> 
+  <Portfolio1/>
   <Footer/>
   </>
 ); 
 }
-export default PortfolioPage;
+export default Portfolio1Page;
